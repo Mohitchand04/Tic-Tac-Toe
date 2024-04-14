@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+    background-color: rgb(6, 6, 6);
+}
+h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+}
+.box{
+    height: 70vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.btn{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #e1e1ca;
+}
+
+#reset-btn{
+    color: rgb(228, 237, 234);
+    background-color: #3c3434;
+    border-radius:1rem;
+    height: 5vmin;
+    width: 16vmin;
+    font-size: 2.5vmin;
+}
+#reset-btn:hover{
+    background-color: #f3f0f0;
+    color: black;
+}
+
+.new-game{
+    color: rgb(228, 237, 234);
+    background-color: #3c3434;
+    border-radius:1rem;
+    height: 5vmin;
+    width: 16vmin;
+    font-size: 2.5vmin;;
+}
+#msg{
+    color: rgb(71, 150, 219);
+    background-color: rgb(198, 234, 241);
+    border-radius: 2.5rem;
+    font-size: 10vmin;
+}
+
+.msg-container {
+    height: 100vmin;
+    background-color: rgb(128, 220, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    
+  }
+
+.new-game{
+    color: rgb(23, 23, 23);
+    background-color: #eee5e5;
+    border-radius:1rem;
+    height: 5vmin;
+    width: 16vmin;
+    font-size: 2.5vmin;
+    margin-bottom: 15rem;
+}
+.new-game:hover{
+    background-color: #f3f0f0;
+    color: black;
+}
+
+.hide{
+    display: none;
+}
